@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TodoListCA.Contracts\TodoListCA.Contracts.csproj" />
+    <ProjectReference Include="..\TodoListCA.Application\TodoListCA.Application.csproj" />
+    <ProjectReference Include="..\TodoListCA.Infrastructure\TodoListCA.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
