@@ -1,6 +1,12 @@
+using TodoListCA.Application;
+using TodoListCA.Infrastructure;
+
 var builder = WebApplication.CreateBuilder(args);
 
 {
+    builder.Services
+        .AddApplication()
+        .AddInfrastructure();
     builder.Services.AddControllers();
 }
 
